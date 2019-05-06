@@ -1,6 +1,6 @@
 package com.company;
 
-public class Education extends Resume{
+public class Education {
 
     private String degree;
     private String major;

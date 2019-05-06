@@ -1,13 +1,17 @@
 package com.company;
 
-public class Skill extends Resume {
+import java.util.ArrayList;
+
+public class Skill {
     private String skill;
-    private int proficiency;
+    private String proficiency;
+
+
 
     public Skill() {
     }
 
-    public Skill(String skill, int proficiency) {
+    public Skill(String skill, String proficiency) {
         this.skill = skill;
         this.proficiency = proficiency;
     }
@@ -20,11 +24,11 @@ public class Skill extends Resume {
         this.skill = skill;
     }
 
-    public int getProficiency() {
+    public String getProficiency() {
         return proficiency;
     }
 
-    public void setProficiency(int proficiency) {
+    public void setProficiency(String proficiency) {
         this.proficiency = proficiency;
     }
 }

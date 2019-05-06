@@ -3,14 +3,14 @@ package com.company;
 import java.util.ArrayList;
 
 public class Resume {
-    ArrayList<Information> infoArr = new ArrayList<>();
-    ArrayList<Education>   eduArr = new ArrayList<>();
-    ArrayList<Experience>  expArr = new ArrayList<>();
-    ArrayList<Skill>       skillArr = new ArrayList<>();
+     ArrayList<Information> infoArr = new ArrayList<>();
+     ArrayList<Education>   eduArr = new ArrayList<>();
+     ArrayList<Experience>  expArr = new ArrayList<>();
+     ArrayList<Skill>       skillArr = new ArrayList<>();
 
     public Resume() { }
 
-    public Resume(ArrayList<Information> infoArr, ArrayList<Education> eduArr, ArrayList<Experience> expArr, ArrayList<Skill> skillArr) {
+    public Resume(ArrayList<Information> infoArr, ArrayList<Education> eduArr, ArrayList<Experience> expArr, ArrayList<Skills> skillsArr) {
         this.infoArr = infoArr;
         this.eduArr = eduArr;
         this.expArr = expArr;
@@ -41,7 +41,7 @@ public class Resume {
         expArr.add(exp);
     }
 
-    public Skill getSkillArr(int i) {
+public Skill getSkillArr(int i) {
         return skillArr.get(i);
     }
 

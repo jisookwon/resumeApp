@@ -1,6 +1,6 @@
 package com.company;
 
-public class Information extends Resume {
+public class Information  {
 
     private String name;
     private String email;
@@ -28,8 +28,8 @@ public class Information extends Resume {
     public void setEmail(String email) {
         this.email = email;
     }
-    @Override
+    /*@Override
     public String toString(){
         return "Applicant : "+getName()+"\nEmail : "+getEmail()+"\n";
-    }
+    }*/
 }

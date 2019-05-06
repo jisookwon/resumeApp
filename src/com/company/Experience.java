@@ -1,6 +1,6 @@
 package com.company;
 
-public class Experience extends Resume{
+public class Experience {
 
     private String company;
     private String title;
