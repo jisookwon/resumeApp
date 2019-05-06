@@ -28,8 +28,9 @@ public class Information  {
     public void setEmail(String email) {
         this.email = email;
     }
-    /*@Override
+
+    @Override
     public String toString(){
-        return "Applicant : "+getName()+"\nEmail : "+getEmail()+"\n";
-    }*/
+        return getName()+"\n"+getEmail();
+    }
 }

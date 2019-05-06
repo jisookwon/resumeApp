@@ -58,4 +58,8 @@ public class Experience {
     public void setDescription(String description) {
         this.description = description;
     }
+    @Override
+    public String toString(){
+        return getTitle()+"\n"+getCompany()+", "+getsDate()+" - "+geteDate()+"\n";
+    }
 }

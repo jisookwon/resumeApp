@@ -51,7 +51,7 @@ public class Education {
     }
     @Override
     public String toString(){
-        return "Degree Type : " + getDegree()+"\n Major : "+getMajor()+"\nUniversity Name : "+getUniversity()+"\nGraduation Year: "+ getGraduation();
+        return getDegree()+" in "+getMajor()+"\n"+getUniversity()+", "+ getGraduation()+"\n";
     }
 }
 
