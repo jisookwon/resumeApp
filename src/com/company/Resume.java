@@ -10,7 +10,7 @@ public class Resume {
 
     public Resume() { }
 
-    public Resume(ArrayList<Information> infoArr, ArrayList<Education> eduArr, ArrayList<Experience> expArr, ArrayList<Skills> skillsArr) {
+    public Resume(ArrayList<Information> infoArr, ArrayList<Education> eduArr, ArrayList<Experience> expArr, ArrayList<Skill> skillArr) {
         this.infoArr = infoArr;
         this.eduArr = eduArr;
         this.expArr = expArr;
